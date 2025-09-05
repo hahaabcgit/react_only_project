@@ -8,11 +8,11 @@ function App() {
         { id: 5, name: "바닐라 라떼", price: 8000, description: "스팀밀크에 바닐라 시럽을 더해서 만든 커피 음료입니다. 부드러운 스팀밀크와 달콤한 바닐라 시럽이 조화를 이루며, 쓴 커피 향을 중화시켜 부드러운 맛을 느낄 수 있습니다." }
     ];
 
-    
+
     // 가격에 따른 코멘트 현황
     const getComment = (price) => {
-        if(price <5000) return '저렴';
-        if(price <7000) return '보통';
+        if (price < 5000) return '저렴';
+        if (price < 7000) return '보통';
         return '비쌈';
     };
     //table 전체를 상수 MyTable에 담기

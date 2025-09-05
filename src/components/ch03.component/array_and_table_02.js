@@ -1,16 +1,16 @@
-import Bread from './ui/BreadList01';
-import Coffee from './ui/CoffeeList01';
+import Board from './ui/BoardList';
+import Member from './ui/MemberList';
 
 function App() {
     // console.log('샘플');
+
     return (
         <div className="App">
-            <Bread />
+            <Board />
             <hr />
-            <Coffee />
+            <Member />
         </div>
     );
 }
-
 
 export default App;
