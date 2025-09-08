@@ -23,17 +23,28 @@ export const menuData = [
             { path: '/use_props', label: 'props 사용하기' },
             { path: '/array_and_table_01', label: '테이블 만들기 01' },
             { path: '/array_and_table_02', label: '테이블 만들기 02' },
+
         ]
     },
     {
         chapter: "ch04. Event",
 
         items: [
-            { path: '/click_event', label : '클릭 이벤트'},
-            { path: '/change_event', label : '체인지 이벤트'},
-            { path: '/mouse_event', label : '마우스 이벤트'},
-            { path: '/key_event', label : '키보드 이벤트'},
+            { path: '/click_event', label: '클릭 이벤트' },
+            { path: '/change_event', label: '체인지 이벤트' },
+            { path: '/mouse_event', label: '마우스 이벤트' },
+            { path: '/key_event', label: '키보드 이벤트' },
+            { path: '/combo_change', label: '콤보 체인지' },
+            { path: '/submit_event', label: '전송 이벤트' },
         ]
     },
+    {
+        chapter: "ch05. Hooks",
+        items: [
+            { path: '/use_state_01', label: '스테이트 실습 01' },
+            { path: '/use_state_02', label: '스테이트 실습 02' },
+            { path: '/use_state_03', label: '스테이트 실습 03' },
+        ]
+    }
     // 여기에 4장, 5장... 내용을 계속 추가하면 됩니다. 
 ];
