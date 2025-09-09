@@ -21,20 +21,25 @@ function App() {
         //  console.log('하하하');
         // 카운터 변수를 interval 간격으로 1씩 증가시킵니다.
         setCount((count) => count + 1)
-    
+
         //배열 요소중 임의의 1개를 추출하여 이미지를 보여 줍니다.
-        const randomIdx = Math.floor(imageArray.length * Math.random()) ;
+        const randomIdx = Math.floor(imageArray.length * Math.random());
         const randomImage = imageArray[randomIdx];
         setImage(`${imagePath}/${randomImage}`)
     }
     const MyTimer = () => {
         // setTimeout(동작, 인터벌) ;
-        setTimeout(SomeAction, interval);
+        const timerId = setTimeout(SomeAction, interval);
+
+        setTimeout(() => {
+            clearTimeout(timerId);
+            console.log(`타이머 종료(5초 경과)`)
+        }, 5000);
     }
 
     useEffect(MyTimer);
 
-    //console.log('샘플');
+
 
     return (
         <>
