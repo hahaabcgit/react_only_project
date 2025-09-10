@@ -36,10 +36,30 @@ import AppUseEffect01 from './../components/ch05.hooks/use_effect_01';
 import AppUseEffect02 from './../components/ch05.hooks/use_effect_02';
 import AppUseEffect03 from './../components/ch05.hooks/use_effect_03';
 
+import AppCafe01 from './../components/ch06.bootstrap/coffee_bread_01/main';
+import AppCafe02 from './../components/ch06.bootstrap/coffee_bread_02/main';
+// import AppCafe03 from './../components/ch06.bootstrap/coffee_bread_03/main';
+// import AppCafe04 from './../components/ch06.bootstrap/coffee_bread_04/main';
+// import AppCafe05 from './../components/ch06.bootstrap/coffee_bread_05/main';
+// import AppCafe06 from './../components/ch06.bootstrap/coffee_bread_06/main';
+// import AppCafe07 from './../components/ch06.bootstrap/coffee_bread_07/main';
+// import AppCafe08 from './../components/ch06.bootstrap/coffee_bread_08/main';
+
 function AppRoutes() {
     return (
         <Routes>
+            {/* 제 06장 */}
+            <Route path='coffee_bread_01' element={<AppCafe01 />} />
+            <Route path='coffee_bread_02' element={<AppCafe02 />} />
+            {/* <Route path='coffee_bread_03' element={<AppCafe03 />} />
+            <Route path='coffee_bread_04' element={<AppCafe04 />} />
+            <Route path='coffee_bread_05' element={<AppCafe05 />} />
+            <Route path='coffee_bread_06' element={<AppCafe06 />} />
+            <Route path='coffee_bread_07' element={<AppCafe07 />} />
+            <Route path='coffee_bread_08' element={<AppCafe08 />} /> */}
 
+
+            {/* 제 05장 */}
             <Route path='use_state_01' element={<AppUseState01 />} />
             <Route path='use_state_02' element={<AppUseState02 />} />
             <Route path='use_state_03' element={<AppUseState03 />} />
