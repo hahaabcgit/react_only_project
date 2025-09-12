@@ -4,7 +4,7 @@ function App({ contents, onClickToContent }) {
 
     /* 테이블 특정 행(row)의 셀(cell) 1개를 클릭했습니다. */
     const ClickItem = (event) => {
-        /* 선택한 항목의 부모 요소의 id를 읽어서 할당합니다.*/
+        /* 선택한 항목의 부모 요소의 id를 읽어서 할당합니다. */
         const itemId = event.target.parentNode.id; // 상품 아이디
         console.log(`선택된 상품 id : ${itemId}`);
 
@@ -26,7 +26,6 @@ function App({ contents, onClickToContent }) {
         );
     };
 
-
     return (
         <>
             <Table striped bordered hover>
@@ -43,6 +42,5 @@ function App({ contents, onClickToContent }) {
         </>
     );
 }
-
 
 export default App;

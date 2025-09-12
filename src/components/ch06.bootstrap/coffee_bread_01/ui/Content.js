@@ -16,7 +16,6 @@ function App({ contents }) {
         );
     };
 
-
     return (
         <>
             <Table striped bordered hover>
@@ -33,6 +32,5 @@ function App({ contents }) {
         </>
     );
 }
-
 
 export default App;

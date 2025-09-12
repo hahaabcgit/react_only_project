@@ -32,12 +32,11 @@ function App({ product }) {
                                         <td>재고</td>
                                         <td>{Number(product.stock).toLocaleString()} 개</td>
                                     </tr>
-
                                 </tbody>
                             </Table>
                         </td>
                         <td>
-                            <img className="myimage" src={`/images/${product.image}`} alt={`product.name`} />
+                            <img className="myimage" src={`/images/${product.image}`} alt={product.name} />
                         </td>
                         <td>
                             <p className="mydescription">
@@ -45,12 +44,10 @@ function App({ product }) {
                             </p>
                         </td>
                     </tr>
-
                 </tbody>
             </Table>
         </div>
     );
 }
-
 
 export default App;

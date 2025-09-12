@@ -1,7 +1,7 @@
 import { useState } from 'react';
+
 // 부트 스트랩 관련 임포트
 import { Card } from 'react-bootstrap';
-
 
 // 하위 컴포넌트 추가하기
 import Top from './ui/Top';
@@ -10,7 +10,7 @@ import Bottom from './ui/Bottom';
 
 function App() {
     const title = 'React 맛집';
-    const comment = '어서오세요~~ 맛있는 빵과 음료수가 많이 있습니다.';
+    const comment = '어서 오세요~~맛있는 빵과 음료수가 많이 있습니다.';
     const message = '카운터에서 주문해 주시고, 즐거운 시간 되시길 바랍니다.';
 
     //setProducts가 필수 사항은 아닙니다.
@@ -27,16 +27,13 @@ function App() {
                 <Top title={title} comment={comment} />
             </Card.Header>
             <Card.Body>
-                <Content contents={products} />
+                <Content contents={products}/>
             </Card.Body>
             <Card.Footer>
                 <Bottom message={message} />
             </Card.Footer>
         </Card>
-
-
     );
 }
-
 
 export default App;

@@ -7,5 +7,4 @@ function App({ title, comment }) {
     );
 }
 
-
 export default App;

@@ -15,11 +15,10 @@ function App({ message, onClickToBottom }) {
                 <Button id="get_delete" variant="secondary" onClick={ClickMenu}>삭제</Button>{' '}
                 <Button id="get_category_add" variant="secondary" onClick={ClickMenu}>카테고리 추가</Button>
             </ButtonGroup>
-            <br />< br />
+            <br /><br />
             {message}
         </>
     );
 }
-
 
 export default App;
