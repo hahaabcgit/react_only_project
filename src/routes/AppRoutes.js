@@ -22,12 +22,14 @@ import AppFileSeparator from './../components/ch03.component/file_separator';
 import AppUseProps from './../components/ch03.component/use_props';
 import AppMakeTable01 from './../components/ch03.component/array_and_table_01';
 import AppMakeTable02 from './../components/ch03.component/array_and_table_02';
+
 import AppClickEvent from './../components/ch04.event_handling/click_event';
 import AppChangeEvent from './../components/ch04.event_handling/change_event';
 import AppMouseEvent from './../components/ch04.event_handling/mouse_event';
 import AppKeyEvent from './../components/ch04.event_handling/key_event';
 import AppComboChange from './../components/ch04.event_handling/combo_change';
 import AppSubmitEvent from './../components/ch04.event_handling/submit_event';
+
 import AppUseState01 from './../components/ch05.hooks/use_state_01';
 import AppUseState02 from './../components/ch05.hooks/use_state_02';
 import AppUseState03 from './../components/ch05.hooks/use_state_03';
@@ -41,9 +43,8 @@ import AppCafe02 from './../components/ch06.bootstrap/coffee_bread_02/main';
 import AppCafe03 from './../components/ch06.bootstrap/coffee_bread_03/main';
 import AppCafe04 from './../components/ch06.bootstrap/coffee_bread_04/main';
 import AppCafe05 from './../components/ch06.bootstrap/coffee_bread_05/main';
-// import AppCafe05 from './../components/ch06.bootstrap/coffee_bread_05/main';
-// import AppCafe06 from './../components/ch06.bootstrap/coffee_bread_06/main';
-// import AppCafe07 from './../components/ch06.bootstrap/coffee_bread_07/main';
+import AppCafe06 from './../components/ch06.bootstrap/coffee_bread_06/main';
+import AppCafe07 from './../components/ch06.bootstrap/coffee_bread_07/main';
 // import AppCafe08 from './../components/ch06.bootstrap/coffee_bread_08/main';
 
 function AppRoutes() {
@@ -55,10 +56,9 @@ function AppRoutes() {
             <Route path='coffee_bread_03' element={<AppCafe03 />} />
             <Route path='coffee_bread_04' element={<AppCafe04 />} />
             <Route path='coffee_bread_05' element={<AppCafe05 />} />
-            {/* <Route path='/coffee_bread_05' element={<AppCafe05 />} /> */}
-            {/*<Route path='coffee_bread_06' element={<AppCafe06 />} />
+            <Route path='coffee_bread_06' element={<AppCafe06 />} />
             <Route path='coffee_bread_07' element={<AppCafe07 />} />
-            <Route path='coffee_bread_08' element={<AppCafe08 />} /> */}
+          {/*  <Route path='coffee_bread_08' element={<AppCafe08 />} /> */}
 
 
             {/* 제 05장 */}
