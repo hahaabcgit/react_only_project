@@ -6,6 +6,17 @@ import { Routes, Route } from 'react-router-dom';
 // ch02 장
 // 기호 .는 현재 폴더, .. 는 상위 폴더, /는 폴더 구분자
 // import 앱이름 from '전체경로/파일명'
+// ch01 장
+import AppMakeArray01 from './../components/ch01.react_basic/make_array_01';
+import AppMathObject01 from './../components/ch01.react_basic/math_object_01';
+import AppIfExercise from './../components/ch01.react_basic/if_exercise';
+import AppSwitchExercise from './../components/ch01.react_basic/switch_exercise';
+import AppTypeOfNumber from './../components/ch01.react_basic/typeof_number';
+import AppFormExam from './../components/ch01.react_basic/form_exam';
+import AppListExam from './../components/ch01.react_basic/list_exam';
+import AppTableExam from './../components/ch01.react_basic/table_exam';
+
+
 import AppLetConst from './../components/ch02.es6_syntax/let_const';
 import AppTemplateString from './../components/ch02.es6_syntax/template_string';
 import AppSubjectList from './../components/ch02.es6_syntax/make_subject_list';
@@ -58,7 +69,7 @@ function AppRoutes() {
             <Route path='coffee_bread_05' element={<AppCafe05 />} />
             <Route path='coffee_bread_06' element={<AppCafe06 />} />
             <Route path='coffee_bread_07' element={<AppCafe07 />} />
-          {/*  <Route path='coffee_bread_08' element={<AppCafe08 />} /> */}
+            {/*  <Route path='coffee_bread_08' element={<AppCafe08 />} /> */}
 
 
             {/* 제 05장 */}
@@ -95,6 +106,18 @@ function AppRoutes() {
             <Route path='/use_props' element={<AppUseProps />} />
             <Route path='/array_and_table_01' element={<AppMakeTable01 />} />
             <Route path='/array_and_table_02' element={<AppMakeTable02 />} />
+
+            {/* 제01장 */}
+            <Route path='/make_array_01' element={<AppMakeArray01 />} />
+            <Route path='/math_object_01' element={<AppMathObject01 />} />
+            <Route path='/if_exercise' element={<AppIfExercise />} />
+            <Route path='/switch_exercise' element={<AppSwitchExercise />} />
+            <Route path='/typeof_number' element={<AppTypeOfNumber />} />
+            <Route path='/form_exam' element={<AppFormExam />} />
+            <Route path='/list_exam' element={<AppListExam />} />
+            <Route path='/table_exam' element={<AppTableExam />} />
+
+
         </Routes>
     );
 };
